@@ -1,0 +1,1 @@
+In this lab, I learned to work with interrupts. The game of tug-of-war was realized with the help of buttons.
