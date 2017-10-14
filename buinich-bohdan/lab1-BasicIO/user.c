@@ -14,33 +14,27 @@
 /* User Functions                                                             */
 
 /******************************************************************************/
+#define L_N(i, n) ((i) << (n))
 
 void initApp(void) {
     /* Setup analog functionality and port direction */
 
     // LED output
-    // Disable analog mode for G6
-    ANSELGbits.ANSG6 = 0;
-    // Set direction to output for G6
-    TRISGbits.TRISG6 = 0;
-
-    // Initialize outputs for other LEDs
-    // Disable analog mode for G15
-    ANSELGbits.ANSG15 = 0;
-
-    // Set direction to output for G15
-    TRISGbits.TRISG15 = 0;
+    // Disable analog mode for G6 and G15
+    ANSELG &= ~(L_N(1,6) | L_N(1,15));
+    // Set direction to output for G6 and G15
+    TRISG &= ~(L_N(1,6) | L_N(1,15));  
     
     // Disable analog mode for B11
-    ANSELBbits.ANSB11 = 0;
+    ANSELB &= ~L_N(1,11);
     // Set direction to output for G6
-    TRISBbits.TRISB11 = 0;
+    TRISB &= ~L_N(1,11);
     
     // Disable analog mode for D4
-    PORTDbits.RD4 = 0;// For LED2 on PORTD pin 4 there is no analog option so ANSELDbits.ANSD4 = 0 is not required and will give compile errors.
+    PORTD &= ~L_N(1,4);// For LED2 on PORTD pin 4 there is no analog option so ANSELDbits.ANSD4 = 0 is not required and will give compile errors.
 
     // Set direction to output for D4
-    TRISDbits.TRISD4 = 0;
+    TRISD &= ~L_N(1,4);
     
     // Turn on LEDs for testing
     // LD1_PORT_BIT =  LD2_PORT_BIT = LD3_PORT_BIT = LD4_PORT_BIT = 1; /
@@ -53,15 +47,14 @@ void initApp(void) {
     // BTN1 input
     
     // Disable analog mode
-    ANSELAbits.ANSA5 = 0;
+    ANSELA &= ~L_N(1,5);
     
     // Set directions to input
-    TRISAbits.TRISA5 = 1;
-
+    TRISA |= L_N(1,5);
     // Initialize input for BTN2
      // No analog on RA4
      // Set directions to input
-    TRISAbits.TRISA4 = 1; 
+    TRISA |= L_N(1,4);
     
     // Test switches
    /* 
@@ -81,9 +74,9 @@ void delay(int n) {
 
 void flash_LED(void) {
     uint32_t delay_count = 1000000;
-        PORTGbits.RG6 = 1; // Turn on LED
+        PORTG  |= L_N(1,6); // Turn on LED
         delay(delay_count);
-        PORTGbits.RG6 = 0; // Turn off LED
+        PORTG &= ~L_N(1,6);// Turn off LED
         delay(delay_count);
     }
 

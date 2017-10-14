@@ -21,15 +21,12 @@
 /* Main Program                                                               */
 /******************************************************************************/
 
-int32_t Run_Game_Tasks(void)
+int32_t main(void)
 {
     /* Initialize I/O 
      * and Peripherals
      * for application */
     initApp();
-   
-while (1) {
         task_update_leds();
-    }
-
+while (1) { }
 }
