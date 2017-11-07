@@ -1,0 +1,78 @@
+\hypertarget{user_8c}{}\section{user.\+c File Reference}
+\label{user_8c}\index{user.\+c@{user.\+c}}
+
+
+File containing user functions.  
+
+
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}user.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$sys/attribs.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}A\+D\+C.\+h\char`\"{}}\newline
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{user_8c_aa9f21db39657f943130ecd318992357d}{L\+\_\+N}(i,  n)~((i) $<$$<$ (n))
+\item 
+\#define \hyperlink{user_8c_a98ed931f97fef7e06e3ea441d0326c67}{V\+ER}~2
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{user_8c_ae11bff767a33ada271f15e07e1df56a9}{Init\+Timer2\+And\+O\+C5} (void)
+\item 
+void \hyperlink{user_8c_a496463a03e093c73a255d2616a7cfa82}{Adjust\+L\+E\+D1\+Brightness} (void)
+\item 
+void \hyperlink{user_8c_afe7a49ab9879bd7044b35eb779f30712}{Init\+G\+P\+IO} (void)
+\item 
+void \hyperlink{user_8c_addc0a16fa099430e2337628a38764b67}{Init\+App} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+File containing user functions. 
+
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\Hypertarget{user_8c_aa9f21db39657f943130ecd318992357d}\label{user_8c_aa9f21db39657f943130ecd318992357d}} 
+\index{user.\+c@{user.\+c}!L\+\_\+N@{L\+\_\+N}}
+\index{L\+\_\+N@{L\+\_\+N}!user.\+c@{user.\+c}}
+\subsubsection{\texorpdfstring{L\+\_\+N}{L\_N}}
+{\footnotesize\ttfamily \#define L\+\_\+N(\begin{DoxyParamCaption}\item[{}]{i,  }\item[{}]{n }\end{DoxyParamCaption})~((i) $<$$<$ (n))}
+
+\mbox{\Hypertarget{user_8c_a98ed931f97fef7e06e3ea441d0326c67}\label{user_8c_a98ed931f97fef7e06e3ea441d0326c67}} 
+\index{user.\+c@{user.\+c}!V\+ER@{V\+ER}}
+\index{V\+ER@{V\+ER}!user.\+c@{user.\+c}}
+\subsubsection{\texorpdfstring{V\+ER}{VER}}
+{\footnotesize\ttfamily \#define V\+ER~2}
+
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{user_8c_a496463a03e093c73a255d2616a7cfa82}\label{user_8c_a496463a03e093c73a255d2616a7cfa82}} 
+\index{user.\+c@{user.\+c}!Adjust\+L\+E\+D1\+Brightness@{Adjust\+L\+E\+D1\+Brightness}}
+\index{Adjust\+L\+E\+D1\+Brightness@{Adjust\+L\+E\+D1\+Brightness}!user.\+c@{user.\+c}}
+\subsubsection{\texorpdfstring{Adjust\+L\+E\+D1\+Brightness()}{AdjustLED1Brightness()}}
+{\footnotesize\ttfamily void Adjust\+L\+E\+D1\+Brightness (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{user_8c_addc0a16fa099430e2337628a38764b67}\label{user_8c_addc0a16fa099430e2337628a38764b67}} 
+\index{user.\+c@{user.\+c}!Init\+App@{Init\+App}}
+\index{Init\+App@{Init\+App}!user.\+c@{user.\+c}}
+\subsubsection{\texorpdfstring{Init\+App()}{InitApp()}}
+{\footnotesize\ttfamily void Init\+App (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Call functions which initialize peripherals\+: G\+P\+IO, A\+DC, Timer2, O\+C5 \mbox{\Hypertarget{user_8c_afe7a49ab9879bd7044b35eb779f30712}\label{user_8c_afe7a49ab9879bd7044b35eb779f30712}} 
+\index{user.\+c@{user.\+c}!Init\+G\+P\+IO@{Init\+G\+P\+IO}}
+\index{Init\+G\+P\+IO@{Init\+G\+P\+IO}!user.\+c@{user.\+c}}
+\subsubsection{\texorpdfstring{Init\+G\+P\+I\+O()}{InitGPIO()}}
+{\footnotesize\ttfamily void Init\+G\+P\+IO (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Initialization G\+P\+IO \mbox{\Hypertarget{user_8c_ae11bff767a33ada271f15e07e1df56a9}\label{user_8c_ae11bff767a33ada271f15e07e1df56a9}} 
+\index{user.\+c@{user.\+c}!Init\+Timer2\+And\+O\+C5@{Init\+Timer2\+And\+O\+C5}}
+\index{Init\+Timer2\+And\+O\+C5@{Init\+Timer2\+And\+O\+C5}!user.\+c@{user.\+c}}
+\subsubsection{\texorpdfstring{Init\+Timer2\+And\+O\+C5()}{InitTimer2AndOC5()}}
+{\footnotesize\ttfamily void Init\+Timer2\+And\+O\+C5 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+initialization Timer 2 and O\+C5 

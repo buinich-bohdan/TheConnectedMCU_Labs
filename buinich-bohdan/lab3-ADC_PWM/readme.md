@@ -1,0 +1,1 @@
+lab3 was completed. In this lab we use timer2 to and work with ADC. Added two modes of programm. In first mode you can control brigthness using potentiometer and in the second mode you can using microfone. For choosing mode you need choose version in #define VER(ver 1 -potentiometer, ver 2 - mic). 

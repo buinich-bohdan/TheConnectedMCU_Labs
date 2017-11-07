@@ -1,0 +1,108 @@
+\begin{theindex}
+
+  \item {A\+D\+C.\+c}, \hyperpage{3}
+    \subitem {convert\+Wi\+F\+I\+R\+Eadc}, \hyperpage{3}
+    \subitem {init\+Wi\+F\+I\+R\+Eadc}, \hyperpage{4}
+    \subitem {Read\+Potentiometer\+With\+A\+DC}, \hyperpage{4}
+  \item {A\+D\+C.\+h}, \hyperpage{4}
+    \subitem {convert\+Wi\+F\+I\+R\+Eadc}, \hyperpage{4}
+    \subitem {init\+Wi\+F\+I\+R\+Eadc}, \hyperpage{5}
+  \item {Adjust\+L\+E\+D1\+Brightness}
+    \subitem {user.\+c}, \hyperpage{6}
+    \subitem {user.\+h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {B\+T\+N1\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}
+    \subitem {user.\+h}, \hyperpage{7}
+  \item {B\+T\+N2\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}
+    \subitem {user.\+h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {configuration\+\_\+bits.\+c}, \hyperpage{5}
+  \item {convert\+Wi\+F\+I\+R\+Eadc}
+    \subitem {A\+D\+C.\+c}, \hyperpage{3}
+    \subitem {A\+D\+C.\+h}, \hyperpage{4}
+
+  \indexspace
+
+  \item {Init\+App}
+    \subitem {user.\+c}, \hyperpage{6}
+    \subitem {user.\+h}, \hyperpage{9}
+  \item {Init\+G\+P\+IO}
+    \subitem {user.\+c}, \hyperpage{7}
+  \item {Init\+Timer2\+And\+O\+C5}
+    \subitem {user.\+c}, \hyperpage{7}
+  \item {init\+Wi\+F\+I\+R\+Eadc}
+    \subitem {A\+D\+C.\+c}, \hyperpage{4}
+    \subitem {A\+D\+C.\+h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {L\+D1\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}
+    \subitem {user.\+h}, \hyperpage{8}
+  \item {L\+D2\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}
+    \subitem {user.\+h}, \hyperpage{8}
+  \item {L\+D3\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}
+    \subitem {user.\+h}, \hyperpage{8}
+  \item {L\+D4\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}
+    \subitem {user.\+h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {M\+A\+X\+\_\+\+A\+D\+C\+\_\+\+V\+A\+L\+UE}
+    \subitem {user.\+h}, \hyperpage{8}
+  \item {main}
+    \subitem {main.\+c}, \hyperpage{5}
+  \item {main.\+c}, \hyperpage{5}
+    \subitem {main}, \hyperpage{5}
+
+  \indexspace
+
+  \item {P\+W\+M\+\_\+\+F\+R\+E\+Q\+\_\+\+HZ}
+    \subitem {user.\+h}, \hyperpage{8}
+  \item {P\+W\+M\+\_\+\+P\+E\+R\+I\+O\+D\+\_\+\+C\+O\+U\+N\+TS}
+    \subitem {user.\+h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {Read\+Potentiometer\+With\+A\+DC}
+    \subitem {A\+D\+C.\+c}, \hyperpage{4}
+
+  \indexspace
+
+  \item {user.\+c}, \hyperpage{6}
+    \subitem {Adjust\+L\+E\+D1\+Brightness}, \hyperpage{6}
+    \subitem {Init\+App}, \hyperpage{6}
+    \subitem {Init\+G\+P\+IO}, \hyperpage{7}
+    \subitem {Init\+Timer2\+And\+O\+C5}, \hyperpage{7}
+    \subitem {V\+ER}, \hyperpage{6}
+  \item {user.\+h}, \hyperpage{7}
+    \subitem {Adjust\+L\+E\+D1\+Brightness}, \hyperpage{9}
+    \subitem {B\+T\+N1\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}, \hyperpage{7}
+    \subitem {B\+T\+N2\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}, \hyperpage{8}
+    \subitem {Init\+App}, \hyperpage{9}
+    \subitem {L\+D1\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}, \hyperpage{8}
+    \subitem {L\+D2\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}, \hyperpage{8}
+    \subitem {L\+D3\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}, \hyperpage{8}
+    \subitem {L\+D4\+\_\+\+P\+O\+R\+T\+\_\+\+B\+IT}, \hyperpage{8}
+    \subitem {M\+A\+X\+\_\+\+A\+D\+C\+\_\+\+V\+A\+L\+UE}, \hyperpage{8}
+    \subitem {P\+W\+M\+\_\+\+F\+R\+E\+Q\+\_\+\+HZ}, \hyperpage{8}
+    \subitem {P\+W\+M\+\_\+\+P\+E\+R\+I\+O\+D\+\_\+\+C\+O\+U\+N\+TS}, 
+		\hyperpage{8}
+    \subitem {V\+R1\+\_\+\+A\+N\+\_\+\+C\+H\+A\+N\+\_\+\+N\+UM}, 
+		\hyperpage{9}
+    \subitem {V\+R2\+\_\+\+A\+N\+\_\+\+C\+H\+A\+N\+\_\+\+N\+UM}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item {V\+ER}
+    \subitem {user.\+c}, \hyperpage{6}
+  \item {V\+R1\+\_\+\+A\+N\+\_\+\+C\+H\+A\+N\+\_\+\+N\+UM}
+    \subitem {user.\+h}, \hyperpage{9}
+  \item {V\+R2\+\_\+\+A\+N\+\_\+\+C\+H\+A\+N\+\_\+\+N\+UM}
+    \subitem {user.\+h}, \hyperpage{9}
+
+\end{theindex}
