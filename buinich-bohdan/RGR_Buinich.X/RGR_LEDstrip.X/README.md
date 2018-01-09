@@ -1,0 +1,1 @@
+Device IoT, which allows you to control the color and brightness of the RGB Strip. Using the application for a smartphone you can easily manage all the functionality of the device.
